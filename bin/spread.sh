@@ -6,4 +6,5 @@ if [ ! -d $ASTRONVIM_USER_CONFIG_PATH ]; then
   mkdir $ASTRONVIM_USER_CONFIG_PATH
 fi
 
-cp -r . ~/.config/nvim/lua/user
+cp -r ./init.lua ~/.config/nvim/lua/user
+cp -r ./plugins/ ~/.config/nvim/lua/user
