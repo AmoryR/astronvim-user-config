@@ -1,0 +1,9 @@
+# This script will spread this user config into the astronvim config
+
+ASTRONVIM_USER_CONFIG_PATH=~/.config/nvim/lua/user
+
+if [ ! -d $ASTRONVIM_USER_CONFIG_PATH ]; then
+  mkdir $ASTRONVIM_USER_CONFIG_PATH
+fi
+
+cp -r . ~/.config/nvim/lua/user
