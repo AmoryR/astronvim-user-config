@@ -7,4 +7,4 @@ if [ ! -d $ASTRONVIM_USER_CONFIG_PATH ]; then
 fi
 
 cp -r ./init.lua ~/.config/nvim/lua/user
-cp -r ./plugins/ ~/.config/nvim/lua/user
+cp -r ./plugins/ ~/.config/nvim/lua/user/plugins
