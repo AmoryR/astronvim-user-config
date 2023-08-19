@@ -26,6 +26,7 @@ return {
         "eslint",
         -- Python
         "black",
+        "isort",
       })
     end,
   },
